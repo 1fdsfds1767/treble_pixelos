@@ -4,7 +4,6 @@ $(call inherit-product, device/phh/treble/base.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, device/lineage/sepolicy/common/sepolicy.mk)
 $(call inherit-product, vendor/aosp/config/BoardConfigSoong.mk)
-$(call inherit-product, vendor/certification/config.mk)
 
 # Overwrite the inherited "emulator" characteristics
 PRODUCT_CHARACTERISTICS := device
@@ -24,6 +23,8 @@ TARGET_SCREEN_WIDTH := 1080
 override TARGET_SUPPORTS_64_BIT_APPS := true # To enable Face Unlock. Override seems to be required.
 #override SELINUX_IGNORE_NEVERALLOWS := true
 override BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
+override TARGET_DISABLE_VIBRATOR := true
 
 # OTA
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
