@@ -16,13 +16,13 @@ cd ~/pixelos
 
 ## Initalize the Treble PixelOS repo
 ```bash
-repo init --depth=1 -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs
+repo init --depth=1 -u https://github.com/PixelOS-AOSP/manifest.git -b sixteen --git-lfs
 ```
 
 ## Clone the Manifest
 This adds necessary dependencies for the PixelOS GSI.
 ```bash
-git clone https://github.com/mytja/treble_manifest.git -b pixelos-fifteen .repo/local_manifests
+git clone https://github.com/mytja/treble_manifest.git -b pixelos-sixteen .repo/local_manifests
 ```
 
 ## Sync the repository
@@ -63,7 +63,7 @@ source build/envsetup.sh
 
 ccache -M 50G -F 0
 
-lunch pixelos_arm64_bgN_erofs-bp1a-userdebug 
+lunch pixelos_arm64_bgN_erofs-bp2a-userdebug 
 
 make systemimage -j$(nproc --all)
 ```
@@ -97,3 +97,4 @@ These people have helped this project in some way or another, so they should be 
 - [Ahnet](https://github.com/ahnet-69)
 - [Christopher A. Williamson](https://github.com/cawilliamson)
 - [kaii](https://github.com/kaii-lb)
+- [MisterZtr](https://github.com/MisterZtr)

@@ -9,9 +9,9 @@ echo "                                   "
 ROOT_DIR="$(pwd)"
 cd $ROOT_DIR
 
-ANDROID_SOURCE_VERSION="15.0"
-ANDROID_QPR="QPR2"
-ANDROID_BUILD_VERSION="bp1a"
+ANDROID_SOURCE_VERSION="16.0"
+ANDROID_QPR="QPR0"
+ANDROID_BUILD_VERSION="bp2a"
 
 echo "Building PixelOS version $ANDROID_SOURCE_VERSION ($ANDROID_BUILD_VERSION)"
 echo "---------------------------"
