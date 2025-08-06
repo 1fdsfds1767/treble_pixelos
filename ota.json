@@ -1,16 +1,16 @@
 {
-    "version": "2025-05-17 (PixelOS May - Android QPR2)",
-    "date": "1747499389",
+    "version": "2025-08-06 (PixelOS - Android 16 QPR0)",
+    "date": "1754509537",
     "variants": [
         {
             "name": "pixelos_arm64_bgN_erofs",
-            "size": "1853359244",
-            "url": "https://github.com/mytja/treble_pixelos/releases/download/20250517/pixelos_arm64_bgN_erofs-15.0-unofficial-20250517.img.xz"
+            "size": "1908645780",
+            "url": "https://github.com/mytja/treble_pixelos/releases/download/20250806/pixelos_arm64_bgN_erofs-16.0-unofficial-20250806.img.xz"
         },
         {
             "name": "pixelos_arm64_bgN_ext4",
-            "size": "1604970100",
-            "url": "https://github.com/mytja/treble_pixelos/releases/download/20250517/pixelos_arm64_bgN_ext4-15.0-unofficial-20250517.img.xz"
+            "size": "1659638984",
+            "url": "https://github.com/mytja/treble_pixelos/releases/download/20250806/pixelos_arm64_bgN_ext4-16.0-unofficial-20250806.img.xz"
         }
     ]
 }
