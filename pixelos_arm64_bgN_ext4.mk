@@ -1,4 +1,4 @@
-$(call inherit-product, device/mytja/pixelos/device.mk)
+$(call inherit-product, device/1fdsfds1767/pixelos/device.mk)
 
 PRODUCT_NAME := pixelos_arm64_bgN_ext4
 
